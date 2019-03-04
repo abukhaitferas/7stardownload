@@ -473,7 +473,7 @@ protected_links = "ظ‡ظ†ط§ ط±ط§ط¨ط· ظ…ط¯ظˆظ†طھظƒ,bl
   (function() {
     var sl = document.createElement('script');
     sl.type = 'text/javascript'; sl.async = true;
-    sl.src = 'https://rawcdn.githack.com/kamalrajab2018/ffffffffffffffffffffffffffffffff/master/fffffffffffffffff/ffffffffffffff.js';
+    sl.src = 'https://rawcdn.githack.com/abukhaitferas/7stardownload/9be5d44b24f135eb9499df14f113ce9fd7b35753/README.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(sl);
   })();
 //]]>
@@ -527,7 +527,7 @@ protected_links = "ظ‡ظ†ط§ ط±ط§ط¨ط· ظ…ط¯ظˆظ†طھظƒ,bl
 </span>
           </div>
         </div>
-        <script src='https://rawcdn.githack.com/kamalrajab2018/ffffffffffffffffffffffffffffffff/master/fffffffffffffffff/ffffffffffffff.js' type='text/javascript'/>
+        <script src='https://rawcdn.githack.com/abukhaitferas/7stardownload/9be5d44b24f135eb9499df14f113ce9fd7b35753/README.js' type='text/javascript'/>
         <div class='collapse' id='safeLINK'>
           <div class='form-group has-success'>
             <div class='input-group'>
