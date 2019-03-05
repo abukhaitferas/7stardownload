@@ -274,7 +274,7 @@ function generate() {
         btn = document.getElementById("btn"),
         notif = document.getElementById("daplong"),
         direklink = document.getElementById("download").href,
-        waktu = 30;
+        waktu = 10;
     var teks_waktu = document.createElement("span");
     linkDL.parentNode.replaceChild(teks_waktu, linkDL);
     var id;
