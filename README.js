@@ -489,7 +489,7 @@ protected_links = "https://7stardownload.blogspot.com/,youtube.com,facebook.com,
 <div aria-labelledby='mySmallModalLabel3' class='modal fade how-to-get' role='dialog' tabindex='-1'>
   <div class='modal-dialog modal-sm'>
     <div class='modal-content'>
-      <div class='modal-header'> <button aria-label='Close' class='close' data-dismiss='modal' type='button'><span aria-hidden='true'> &#215;</span></button> <h4 class='modal-title' id='mySmallModalLabel3'><strong>إختصار روابط لمتجر اندرويد كيفك </strong></h4> </div>
+      <div class='modal-header'> <button aria-label='Close' class='close' data-dismiss='modal' type='button'><span aria-hidden='true'> &#215;</span></button> <h4 class='modal-title' id='mySmallModalLabel3'><strong>إختصار روابط لمتجر 7stardownload </strong></h4> </div>
       <div class='modal-body text-right'>
         <p>الموقع تابع BANI SAAB<a href='https://vipproof.blogspot.com/' target='_blank' title='BANI SAAB '><strong>BANI SAAB </strong></a></p>
       </div>
