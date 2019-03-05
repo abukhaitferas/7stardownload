@@ -378,7 +378,7 @@ var _0x71c0=["\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x55\x43\x42\x72\x6F\x77\x7
           </button>
 <header itemscope='itemscope' itemtype='https://schema.org/WPHeader'>
       <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
-        <b:widget id='Header1' locked='true' title='download app android (رأس الصفحة)' type='Header' version='1'>
+        <b:widget id='Header1' locked='true' title='7stardownload (رأس الصفحة)' type='Header' version='1'>
           <b:widget-settings>
             <b:widget-setting name='displayUrl'/>
             <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -491,7 +491,7 @@ protected_links = "هنا رابط مدونتك,blogspot.com,youtube.com,faceboo
     <div class='modal-content'>
       <div class='modal-header'> <button aria-label='Close' class='close' data-dismiss='modal' type='button'><span aria-hidden='true'> &#215;</span></button> <h4 class='modal-title' id='mySmallModalLabel3'><strong>إختصار روابط لمتجر اندرويد كيفك </strong></h4> </div>
       <div class='modal-body text-right'>
-        <p>الموقع تابع لمتجر اندرويد كيفك لتطبيقات الاندرويد<a href='https://www.android-market-kefak.com/' target='_blank' title='متجر اندرويد كيفك '><strong>متجر انندرويد كيفك </strong></a></p>
+        <p>الموقع تابع لمتجر اندرويد كيفك لتطبيقات الاندرويد<a href='https://www.android-market-kefak.com/' target='_blank' title='7stardownload '><strong>7stardownload </strong></a></p>
       </div>
     </div>
   </div>
