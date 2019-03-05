@@ -242,7 +242,7 @@ p.desc{text-shadow:0 1px 1px #fff,0 -1px 1px #000}
 </style>
 </b:if>
 
-  <b:if cond='data:blog.url == &quot;https://download-app-android01.blogspot.com/p/blog-page.html&quot;'>
+  <b:if cond='data:blog.url == &quot;https://7stardownload.blogspot.com/p/blog-page.html&quot;'>
 <style type='text/css'>
 .postmeta,h2.post-title{position:fixed;top:-1000px;right:-1000px}
 .post-body{padding-top:10px}
@@ -261,7 +261,7 @@ window.location.replace(ncr); };
 
 var currentURL=location.href;
 var str = currentURL;
-  var res = str.replace("https://download-app-android01.blogspot.com/p/blog-page.html?url=", "");
+  var res = str.replace("https://7stardownload.blogspot.com/p/blog-page.html?url=", "");
 $(".Visit_Link").hide();
 function changeLink(){
     var decodedString = Base64.decode(res);
@@ -378,7 +378,7 @@ var _0x71c0=["\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x55\x43\x42\x72\x6F\x77\x7
           </button>
 <header itemscope='itemscope' itemtype='https://schema.org/WPHeader'>
       <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
-        <b:widget id='Header1' locked='true' title='7stardownload (رأس الصفحة)' type='Header' version='1'>
+        <b:widget id='Header1' locked='true' title='download app android (رأس الصفحة)' type='Header' version='1'>
           <b:widget-settings>
             <b:widget-setting name='displayUrl'/>
             <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -421,7 +421,7 @@ var _0x71c0=["\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x55\x43\x42\x72\x6F\x77\x7
           <li><a href='https://download-app-android01.blogspot.com/p/blog-page_16.html' title='سياسة الخصوصية'> سياسة الخصوصية </a></li>
           </ul>
           <ul class='nav navbar-nav navbar-left'>
-            <b:if cond='data:blog.url == &quot;https://download-app-android01.blogspot.com/p/blog-page.html&quot;'>
+            <b:if cond='data:blog.url == &quot;https://7stardownload.blogspot.com/p/blog-page.html&quot;'>
             <li><a data-target='.how-to-use' data-toggle='modal' href='javascript:void(0)' title=' إختصر روابط موقعك ! '> إختصر روابط موقعك ! </a></li>
             </b:if>
             <li><a data-target='.how-to-get' data-toggle='modal' href='javascript:void(0)' title='عن الموقع'>عن الموقع </a></li>
@@ -491,7 +491,7 @@ protected_links = "هنا رابط مدونتك,blogspot.com,youtube.com,faceboo
     <div class='modal-content'>
       <div class='modal-header'> <button aria-label='Close' class='close' data-dismiss='modal' type='button'><span aria-hidden='true'> &#215;</span></button> <h4 class='modal-title' id='mySmallModalLabel3'><strong>إختصار روابط لمتجر اندرويد كيفك </strong></h4> </div>
       <div class='modal-body text-right'>
-        <p>الموقع تابع لمتجر اندرويد كيفك لتطبيقات الاندرويد<a href='https://www.android-market-kefak.com/' target='_blank' title='7stardownload '><strong>7stardownload </strong></a></p>
+        <p>الموقع تابع لمتجر اندرويد كيفك لتطبيقات الاندرويد<a href='https://www.android-market-kefak.com/' target='_blank' title='متجر اندرويد كيفك '><strong>متجر انندرويد كيفك </strong></a></p>
       </div>
     </div>
   </div>
