@@ -418,7 +418,7 @@ var _0x71c0=["\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x55\x43\x42\x72\x6F\x77\x7
         <div class='collapse navbar-collapse' id='navbar'>
           <ul class='nav navbar-nav'>
           <li><a data-target='.contact' data-toggle='modal' href='javascript:void(0)' title='إتصل بنا'> إتصل بنا </a></li>
-          <li><a href='https://download-app-android01.blogspot.com/p/blog-page_16.html' title='سياسة الخصوصية'> سياسة الخصوصية </a></li>
+          <li><a href='https://7stardownload.blogspot.com/p/blog-page_16.html' title='سياسة الخصوصية'> سياسة الخصوصية </a></li>
           </ul>
           <ul class='nav navbar-nav navbar-left'>
             <b:if cond='data:blog.url == &quot;https://7stardownload.blogspot.com/p/blog-page.html&quot;'>
