@@ -473,7 +473,7 @@ protected_links = "هنا رابط مدونتك,blogspot.com,youtube.com,faceboo
   (function() {
     var sl = document.createElement('script');
     sl.type = 'text/javascript'; sl.async = true;
-    sl.src = 'https://rawcdn.githack.com/kamalrajab2018/ffffffffffffffffffffffffffffffff/master/fffffffffffffffff/ffffffffffffff.js';
+    sl.src = 'https://7stardownload.blogspot.com/';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(sl);
   })();
 //]]>
@@ -527,7 +527,7 @@ protected_links = "هنا رابط مدونتك,blogspot.com,youtube.com,faceboo
 </span>
           </div>
         </div>
-        <script src='https://rawcdn.githack.com/kamalrajab2018/ffffffffffffffffffffffffffffffff/master/fffffffffffffffff/ffffffffffffff.js' type='text/javascript'/>
+        <script src='https://7stardownload.blogspot.com/' type='text/javascript'/>
         <div class='collapse' id='safeLINK'>
           <div class='form-group has-success'>
             <div class='input-group'>
