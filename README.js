@@ -10,7 +10,7 @@
     <title><data:blog.pageTitle/></title>
 <b:else/>
     <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
-        <title>ط®ط·ط£ 404 | <data:blog.title/></title>
+        <title>خطأ 404 | <data:blog.title/></title>
     <b:else/>
         <title><data:blog.pageName/></title>
     </b:if>
@@ -242,7 +242,7 @@ p.desc{text-shadow:0 1px 1px #fff,0 -1px 1px #000}
 </style>
 </b:if>
 
-  <b:if cond='data:blog.url == &quot;https://7stardownload.blogspot.com/p/blog-page.html&quot;'>
+  <b:if cond='data:blog.url == &quot;https://download-app-android01.blogspot.com/p/blog-page.html&quot;'>
 <style type='text/css'>
 .postmeta,h2.post-title{position:fixed;top:-1000px;right:-1000px}
 .post-body{padding-top:10px}
@@ -261,7 +261,7 @@ window.location.replace(ncr); };
 
 var currentURL=location.href;
 var str = currentURL;
-  var res = str.replace("https://7stardownload.blogspot.com/p/blog-page.html?url=", "");
+  var res = str.replace("https://download-app-android01.blogspot.com/p/blog-page.html?url=", "");
 $(".Visit_Link").hide();
 function changeLink(){
     var decodedString = Base64.decode(res);
@@ -287,7 +287,7 @@ function generate() {
             linkDL.style.display = "inline";
             linkAL.style.display = "inline";
         } else {
-            teks_waktu.innerHTML = "<h3 class='text-danger'>ط³ظˆظپ ظٹط¸ظ‡ط± ط§ظ„ط±ط§ط¨ط· ظپظٹ " + waktu.toString() + " ظ…ظ† ط§ظ„ط«ظˆط§ظ†ظٹ</h3>";
+            teks_waktu.innerHTML = "<h3 class='text-danger'>سوف يظهر الرابط في " + waktu.toString() + " من الثواني</h3>";
             btn.style.display = "none";
         }
     }, 2000);
@@ -352,11 +352,11 @@ var _0x71c0=["\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x55\x43\x42\x72\x6F\x77\x7
 #search input{padding:6px 10px;margin:15px 0 0 -1px}
 </style>
 <div id='error-page'> 
-<div class='large-heading1'>ط®ط·ط£ ! </div>
+<div class='large-heading1'>خطأ ! </div>
 <div class='error-404'>404</div> 
-<div class='large-heading2'>ط§ظ„طµظپط­ط© ط؛ظٹط± ظ…ظˆط¬ظˆط¯ط© </div><br/> 
+<div class='large-heading2'>الصفحة غير موجودة </div><br/> 
 <div class='light-heading1'/><br/>
-  <div class='light-heading2'> ط§ط¶ط؛ط· <a expr:href='data:blog.homepageUrl' title=' ط§ظ„طµظپط­ط© ط§ظ„ط±ط¦ظٹط³ظٹط© '><span style='background:#ddd;border:1px solid #aaa;border-radius:3px;padding:2px 5px'><b> ظ‡ظ†ط§ </b></span> </a> ظ„ظ„ط¹ظˆط¯ط© ط¥ظ„ظ‰ ط§ظ„طµظپط­ط© ط§ظ„ط±ط¦ظٹط³ظٹط© <b><data:blog.title/></b>.<br/></div>
+  <div class='light-heading2'> اضغط <a expr:href='data:blog.homepageUrl' title=' الصفحة الرئيسية '><span style='background:#ddd;border:1px solid #aaa;border-radius:3px;padding:2px 5px'><b> هنا </b></span> </a> للعودة إلى الصفحة الرئيسية <b><data:blog.title/></b>.<br/></div>
 <div class='searchform' id='searchform'>
 <div id='search'>
 <div class='clearfix'/>
@@ -378,7 +378,7 @@ var _0x71c0=["\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x55\x43\x42\x72\x6F\x77\x7
           </button>
 <header itemscope='itemscope' itemtype='https://schema.org/WPHeader'>
       <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
-        <b:widget id='Header1' locked='true' title='download app android (ط±ط£ط³ ط§ظ„طµظپط­ط©)' type='Header' version='1'>
+        <b:widget id='Header1' locked='true' title='download app android (رأس الصفحة)' type='Header' version='1'>
           <b:widget-settings>
             <b:widget-setting name='displayUrl'/>
             <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -417,14 +417,14 @@ var _0x71c0=["\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x55\x43\x42\x72\x6F\x77\x7
         </div>
         <div class='collapse navbar-collapse' id='navbar'>
           <ul class='nav navbar-nav'>
-          <li><a data-target='.contact' data-toggle='modal' href='javascript:void(0)' title='ط¥طھطµظ„ ط¨ظ†ط§'> ط¥طھطµظ„ ط¨ظ†ط§ </a></li>
-          <li><a href='https://download-app-android01.blogspot.com/p/blog-page_16.html' title='ط³ظٹط§ط³ط© ط§ظ„ط®طµظˆطµظٹط©'> ط³ظٹط§ط³ط© ط§ظ„ط®طµظˆطµظٹط© </a></li>
+          <li><a data-target='.contact' data-toggle='modal' href='javascript:void(0)' title='إتصل بنا'> إتصل بنا </a></li>
+          <li><a href='https://download-app-android01.blogspot.com/p/blog-page_16.html' title='سياسة الخصوصية'> سياسة الخصوصية </a></li>
           </ul>
           <ul class='nav navbar-nav navbar-left'>
-            <b:if cond='data:blog.url == &quot;https://7stardownload.blogspot.com/p/blog-page.html&quot;'>
-            <li><a data-target='.how-to-use' data-toggle='modal' href='javascript:void(0)' title=' ط¥ط®طھطµط± ط±ظˆط§ط¨ط· ظ…ظˆظ‚ط¹ظƒ ! '> ط¥ط®طھطµط± ط±ظˆط§ط¨ط· ظ…ظˆظ‚ط¹ظƒ ! </a></li>
+            <b:if cond='data:blog.url == &quot;https://download-app-android01.blogspot.com/p/blog-page.html&quot;'>
+            <li><a data-target='.how-to-use' data-toggle='modal' href='javascript:void(0)' title=' إختصر روابط موقعك ! '> إختصر روابط موقعك ! </a></li>
             </b:if>
-            <li><a data-target='.how-to-get' data-toggle='modal' href='javascript:void(0)' title='ط¹ظ† ط§ظ„ظ…ظˆظ‚ط¹'>ط¹ظ† ط§ظ„ظ…ظˆظ‚ط¹ </a></li>
+            <li><a data-target='.how-to-get' data-toggle='modal' href='javascript:void(0)' title='عن الموقع'>عن الموقع </a></li>
             <b:if cond='data:blog.pageType != &quot;item&quot; and data:blog.pageType != &quot;static_page&quot;'>            </b:if>
           </ul>
         </div><!--/.nav-collapse -->
@@ -433,16 +433,16 @@ var _0x71c0=["\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x55\x43\x42\x72\x6F\x77\x7
 <div aria-labelledby='mySmallModalLabel' class='modal fade contact' role='dialog' tabindex='-1'>
   <div class='modal-dialog modal-sm'>
     <div class='modal-content'>
-      <div class='modal-header'> <button aria-label='Close' class='close' data-dismiss='modal' type='button'><span aria-hidden='true'>&#215;</span></button> <h4 class='modal-title' id='mySmallModalLabel'>ط¥طھطµظ„ ط¨ظ†ط§ </h4> </div>
+      <div class='modal-header'> <button aria-label='Close' class='close' data-dismiss='modal' type='button'><span aria-hidden='true'>&#215;</span></button> <h4 class='modal-title' id='mySmallModalLabel'>إتصل بنا </h4> </div>
       <div class='modal-body text-right'>
         <div class='form-group'>
 <form name='contact-form'>
 <span class='contact-form-name'>
-<input id='ContactForm1_contact-form-name' name='name' placeholder='ط£ط³ظ…ظƒ ' size='30' type='text' value=''/></span><br/>
+<input id='ContactForm1_contact-form-name' name='name' placeholder='أسمك ' size='30' type='text' value=''/></span><br/>
 <span class='contact-form-email'>
-<input id='ContactForm1_contact-form-email' name='email' placeholder='ط§ظ„ط¨ط±ظٹط¯ ط§ظ„ط¥ظ„ظƒطھط±ظˆظ†ظٹ ' size='30' type='text' value=''/></span><br/>
-<textarea cols='25' id='ContactForm1_contact-form-email-message' name='email-message' placeholder='ط±ط³ط§ظ„ط© ' rows='5'/><br/>
-<input id='ContactForm1_contact-form-submit' type='button' value='ط¥ط±ط³ط§ظ„ '/><br/>
+<input id='ContactForm1_contact-form-email' name='email' placeholder='البريد الإلكتروني ' size='30' type='text' value=''/></span><br/>
+<textarea cols='25' id='ContactForm1_contact-form-email-message' name='email-message' placeholder='رسالة ' rows='5'/><br/>
+<input id='ContactForm1_contact-form-submit' type='button' value='إرسال '/><br/>
 <div class='clearfix'/>
 <div style='max-width: 100%; text-align: right; width: 100%;'>
 <div id='ContactForm1_contact-form-error-message'>
@@ -461,19 +461,19 @@ var _0x71c0=["\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x55\x43\x42\x72\x6F\x77\x7
 <div aria-labelledby='myLargeModalLabel' class='modal fade how-to-use' role='dialog' tabindex='-1'>
   <div class='modal-dialog modal-lg'>
     <div class='modal-content'>
-      <div class='modal-header'> <button aria-label='Close' class='close' data-dismiss='modal' type='button'><span aria-hidden='true'>&#215;</span></button> <h4 class='modal-title' id='myLargeModalLabel'>ظƒظٹظپ ط§ط®طھطµط§ط± ط¬ظ…ظٹط¹ ط±ظˆط§ط¨ط· ظ…ط¯ظˆظ†طھظƒ طھظ„ظ‚ط§ط¦ظٹ </h4> </div>
+      <div class='modal-header'> <button aria-label='Close' class='close' data-dismiss='modal' type='button'><span aria-hidden='true'>&#215;</span></button> <h4 class='modal-title' id='myLargeModalLabel'>كيف اختصار جميع روابط مدونتك تلقائي </h4> </div>
       <div class='modal-body text-right'>
-        <p>ط§ظ†ظ‚ط± ط¹ظ„ظ‰ ط§ظ„ط´ظپط±ط© ظˆط§ط¶ط؛ط· ط¹ظ„ظٹ  <kbd><kbd>CTRL </kbd>+ <kbd>C</kbd></kbd> ظ…ظ† ظ„ظˆط­ط© ط§ظ„ظ…ظپط§طھظٹط­. ظˆط¶ط¹ ط§ظ„ط´ظپط±ط© ظپظˆظ‚ ظˆط³ظ…  <mark>&amp;lt;/body&amp;gt;</mark></p>
+        <p>انقر على الشفرة واضغط علي  <kbd><kbd>CTRL </kbd>+ <kbd>C</kbd></kbd> من لوحة المفاتيح. وضع الشفرة فوق وسم  <mark>&amp;lt;/body&amp;gt;</mark></p>
         <div class='form-group'>
 <textarea class='form-control' id='textArea' onclick='this.focus();this.select()' readonly='readonly' rows='11'>
 
 <script type='text/javascript'>
 //<![CDATA[
-protected_links = "ظ‡ظ†ط§ ط±ط§ط¨ط· ظ…ط¯ظˆظ†طھظƒ,blogspot.com,youtube.com,facebook.com,google.com,twitter.com"; 
+protected_links = "هنا رابط مدونتك,blogspot.com,youtube.com,facebook.com,google.com,twitter.com"; 
   (function() {
     var sl = document.createElement('script');
     sl.type = 'text/javascript'; sl.async = true;
-    sl.src = 'https://rawcdn.githack.com/abukhaitferas/7stardownload/9be5d44b24f135eb9499df14f113ce9fd7b35753/README.js';
+    sl.src = 'https://rawcdn.githack.com/kamalrajab2018/ffffffffffffffffffffffffffffffff/master/fffffffffffffffff/ffffffffffffff.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(sl);
   })();
 //]]>
@@ -489,9 +489,9 @@ protected_links = "ظ‡ظ†ط§ ط±ط§ط¨ط· ظ…ط¯ظˆظ†طھظƒ,bl
 <div aria-labelledby='mySmallModalLabel3' class='modal fade how-to-get' role='dialog' tabindex='-1'>
   <div class='modal-dialog modal-sm'>
     <div class='modal-content'>
-      <div class='modal-header'> <button aria-label='Close' class='close' data-dismiss='modal' type='button'><span aria-hidden='true'> &#215;</span></button> <h4 class='modal-title' id='mySmallModalLabel3'><strong>ط¥ط®طھطµط§ط± ط±ظˆط§ط¨ط· ظ„ظ…طھط¬ط± ط§ظ†ط¯ط±ظˆظٹط¯ ظƒظٹظپظƒ </strong></h4> </div>
+      <div class='modal-header'> <button aria-label='Close' class='close' data-dismiss='modal' type='button'><span aria-hidden='true'> &#215;</span></button> <h4 class='modal-title' id='mySmallModalLabel3'><strong>إختصار روابط لمتجر اندرويد كيفك </strong></h4> </div>
       <div class='modal-body text-right'>
-        <p>ط§ظ„ظ…ظˆظ‚ط¹ طھط§ط¨ط¹ ظ„ظ…طھط¬ط± ط§ظ†ط¯ط±ظˆظٹط¯ ظƒظٹظپظƒ ظ„طھط·ط¨ظٹظ‚ط§طھ ط§ظ„ط§ظ†ط¯ط±ظˆظٹط¯<a href='https://www.android-market-kefak.com/' target='_blank' title='ظ…طھط¬ط± ط§ظ†ط¯ط±ظˆظٹط¯ ظƒظٹظپظƒ '><strong>ظ…طھط¬ط± ط§ظ†ظ†ط¯ط±ظˆظٹط¯ ظƒظٹظپظƒ </strong></a></p>
+        <p>الموقع تابع لمتجر اندرويد كيفك لتطبيقات الاندرويد<a href='https://www.android-market-kefak.com/' target='_blank' title='متجر اندرويد كيفك '><strong>متجر انندرويد كيفك </strong></a></p>
       </div>
     </div>
   </div>
@@ -504,7 +504,7 @@ protected_links = "ظ‡ظ†ط§ ط±ط§ط¨ط· ظ…ط¯ظˆظ†طھظƒ,bl
 
   <div class='text-center margin-bottom-20'>
 <h3>
-ط§ط¹ظ„ط§ظ† ط¨ظ…ظ‚ط§ط³ 728 ظپظٹ 90
+اعلان بمقاس 728 في 90
 </h3>
   </div>
 
@@ -516,27 +516,27 @@ protected_links = "ظ‡ظ†ط§ ط±ط§ط¨ط· ظ…ط¯ظˆظ†طھظƒ,bl
         <h4>Link has been <strong>copied to clipboard!</strong></h4>
       </div>
     <div class='panel panel-primary'>
-      <div class='panel-heading'><div class='panel-title text-center'><h2><i class='fa fa-shield'/> <strong>ط§ط®طھطµط± ط±ط§ط¨ط· ط¬ط¯ظٹط¯ </strong></h2></div></div>
+      <div class='panel-heading'><div class='panel-title text-center'><h2><i class='fa fa-shield'/> <strong>اختصر رابط جديد </strong></h2></div></div>
       <div class='panel-body'>
         <div class='form-group'>
           <div class='input-group'>
             <span class='input-group-addon'><i class='fa fa-link'/></span>
             <input class='form-control' id='inputURL' required='required' type='url'/>
             <span class='input-group-btn'>
-<button class='btn btn-primary' data-target='#safeLINK' data-toggle='collapse' type='button'><i class='fa fa-shield'/> <strong>ط§ط®طھطµط± </strong></button>
+<button class='btn btn-primary' data-target='#safeLINK' data-toggle='collapse' type='button'><i class='fa fa-shield'/> <strong>اختصر </strong></button>
 </span>
           </div>
         </div>
-        <script src='https://rawcdn.githack.com/abukhaitferas/7stardownload/9be5d44b24f135eb9499df14f113ce9fd7b35753/README.js' type='text/javascript'/>
+        <script src='https://rawcdn.githack.com/kamalrajab2018/ffffffffffffffffffffffffffffffff/master/fffffffffffffffff/ffffffffffffff.js' type='text/javascript'/>
         <div class='collapse' id='safeLINK'>
           <div class='form-group has-success'>
             <div class='input-group'>
               <span class='input-group-addon'><strong/> <i aria-hidden='true' class='fa fa-check'/></span>
             <input class='form-control' id='resultLink' onclick='this.focus();this.select()' readonly='readonly' required='required' type='text'/></div>
             <br/>
-            <button class='alert alert-dismissible alert-success btn-lg btn-block text-center'><i aria-hidden='true' class='fa fa-thumbs-o-up'/> <strong>ط£ط­ط³ظ†طھ </strong>طھظ… ط§ط®طھطµط§ط± ط±ط§ط¨ط·ظƒ ط¨ظ†ط¬ط§ط­ </button>
+            <button class='alert alert-dismissible alert-success btn-lg btn-block text-center'><i aria-hidden='true' class='fa fa-thumbs-o-up'/> <strong>أحسنت </strong>تم اختصار رابطك بنجاح </button>
             <div class='text-center'>
-            <button class='btn btn-sm btn-success' data-clipboard-target='resultLink' data-target='#safeLINK' data-toggle='collapse' id='btnCopy' type='submit'><i aria-hidden='true' class='fa fa-files-o'/> <strong>ظ„ظ†ط³ط® ط§ظ„ط±ط§ط¨ط· ط§ط³طھط¹ظ…ظ„ ctrl+c </strong></button>
+            <button class='btn btn-sm btn-success' data-clipboard-target='resultLink' data-target='#safeLINK' data-toggle='collapse' id='btnCopy' type='submit'><i aria-hidden='true' class='fa fa-files-o'/> <strong>لنسخ الرابط استعمل ctrl+c </strong></button>
             </div>
           </div>
         </div>
@@ -584,24 +584,24 @@ protected_links = "ظ‡ظ†ط§ ط±ط§ط¨ط· ظ…ط¯ظˆظ†طھظƒ,bl
 <div class='margin-bottom-20'>
   <div class='col-md-4 text-center'>
 <h3>
-ط§ط¹ظ„ط§ظ† ط¨ظ…ظ‚ط§ط³ 300 ظپظٹ 250
+اعلان بمقاس 300 في 250
 </h3>
 </div>
 <div class='col-md-4 margin-top-25'>
 <div class='panel panel-info'>
-  <div class='panel-heading'><h2 class='panel-title'><i aria-hidden='true' class='fa fa-question-circle-o'/> <strong>ظƒظٹظپ ط§ط³طھط®ط¯ط§ظ… ط§ظ„ظ…ظˆظ‚ط¹ </strong></h2></div>
+  <div class='panel-heading'><h2 class='panel-title'><i aria-hidden='true' class='fa fa-question-circle-o'/> <strong>كيف استخدام الموقع </strong></h2></div>
   <div class='panel-body'>
 <ol>
-<li> ط§ط³طھط¹ظ…ط§ظ„ <kbd><kbd>CTRL</kbd> + <kbd>V</kbd></kbd> ظ„ظˆط¶ط¹ ط±ط§ط¨ط· ط¬ط¯ظٹط¯ </li>
-<li> ط§ط¶ط؛ط· ط¹ظ„ظ‰ <strong> ط§ط®طھطµط± </strong> ظ„ظ„ط­طµظˆظ„ ط¹ظ„ظ‰ ط±ط§ط¨ط· ظ…ط®طھطµط± </li>
-<li> ط§ط³طھط¹ظ…ط§ظ„ <kbd><kbd>CTRL</kbd> + <kbd>C</kbd></kbd> ظ„ظ†ط³ط® ط§ظ„ط±ط§ط¨ط· </li>
+<li> استعمال <kbd><kbd>CTRL</kbd> + <kbd>V</kbd></kbd> لوضع رابط جديد </li>
+<li> اضغط على <strong> اختصر </strong> للحصول على رابط مختصر </li>
+<li> استعمال <kbd><kbd>CTRL</kbd> + <kbd>C</kbd></kbd> لنسخ الرابط </li>
 </ol>
   </div>
 </div>
 </div>
  <div class='col-md-4 text-center'>
 <h3>
-ط§ط¹ظ„ط§ظ† ط¨ظ…ظ‚ط§ط³ 300 ظپظٹ 250
+اعلان بمقاس 300 في 250
 </h3>
 </div>
 <div class='clearfix'/>
@@ -615,13 +615,13 @@ protected_links = "ظ‡ظ†ط§ ط±ط§ط¨ط· ظ…ط¯ظˆظ†طھظƒ,bl
 <div class='row'>
 <b:if cond='data:blog.pageType != &quot;item&quot; and data:blog.pageType != &quot;static_page&quot;'>
 <div class='container'>
-  <div class='alert alert-info btn-lg btn-block text-center'><h2><strong>ظƒظ…ط§ظ„ ط±ط¬ط¨  </strong></h2></div>
+  <div class='alert alert-info btn-lg btn-block text-center'><h2><strong>كمال رجب  </strong></h2></div>
   </div>
 </b:if>
 <div itemscope='itemscope' itemtype='https://schema.org/Blog'>
      <div id='main-wrapper'>
         <b:section class='main' id='main' showaddelement='no'>
-          <b:widget id='Blog1' locked='true' title='ط±ط³ط§ط¦ظ„ ط§ظ„ظ…ط¯ظˆظ†ط© ط§ظ„ط¥ظ„ظƒطھط±ظˆظ†ظٹط©' type='Blog' version='1'>
+          <b:widget id='Blog1' locked='true' title='رسائل المدونة الإلكترونية' type='Blog' version='1'>
             <b:widget-settings>
               <b:widget-setting name='showDateHeader'>true</b:widget-setting>
               <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
@@ -1216,7 +1216,7 @@ protected_links = "ظ‡ظ†ط§ ط±ط§ط¨ط· ظ…ط¯ظˆظ†طھظƒ,bl
 <footer class='footer'>
       <div class='container'>
         <div class='row'>
-        <div class='col-md-4'>ط¬ظ…ظٹط¹ ط§ظ„ط­ظ‚ظˆظ‚ ظ…ط­ظپظˆط¸ط© ظ„ظ€ <a expr:href='data:blog.homepageUrl' expr:title='data:blog.title'><data:blog.title/></a> <script>document.write((new Date()).getFullYear());</script></div>
+        <div class='col-md-4'>جميع الحقوق محفوظة لـ <a expr:href='data:blog.homepageUrl' expr:title='data:blog.title'><data:blog.title/></a> <script>document.write((new Date()).getFullYear());</script></div>
       </div>
       </div>
     </footer>
@@ -1228,7 +1228,7 @@ protected_links = "ظ‡ظ†ط§ ط±ط§ط¨ط· ظ…ط¯ظˆظ†طھظƒ,bl
 <script type='text/javascript'>
 //<![CDATA[
 var mql = window.matchMedia('screen and (min-width: 60em)');if (mql.matches){
-(function(w,u){var d=w.document,z=typeof u;function unblocker(){function c(c,i){var e=d.createElement('div'),b=d.body,s=b.style,l=b.childNodes.length;if(typeof i!=z){e.setAttribute('id',i);s.margin=s.padding=0;s.height='100%';l=Math.floor(Math.random()*l)+1}e.innerHTML=c;b.insertBefore(e,b.childNodes[l-1])}function g(i,t){return !t?d.getElementById(i):d.getElementsByTagName(t)};function f(v){if(!g('unblocker')){c('<p> ظ…ظ† ظپط¶ظ„ظƒ ظ‚ظ… ط¨طھط¹ط·ظٹظ„ ط£ط¯ط§ط© ظ…ط§ظ†ط¹ ط§ظ„ط£ط¹ظ„ط§ظ†ط§طھ ط£ط¯ط¨ظ„ظˆظƒ AdBlock ظ…ظ† ط§ظ„ظ…طھطµظپط­ ظ„ظ„ط¯ط®ظˆظ„ ط¥ظ„ظ‰ ط§ظ„ط±ط§ط¨ط· ط§ظ„ظ…ط·ظ„ظˆط¨ طŒ ط£ظˆ ط£ط³طھط®ط¯ظ… ظ…طھطµظپط­ ط£ط®ط± ظˆط´ظƒط±ط§ ظ„ظƒ ًںکٹ <br/> ظ†ط±ط¬ظˆ ظ…ظ†ظƒ طھظپظ‡ظ… ط§ظ„ط£ظ…ط± ط¨ط¯ظˆظ† ط£ظ†ط²ط¹ط§ط¬ ظˆط´ظƒط±ط§ ظ„ظƒ ًںکٹ </p>','unblocker')}};(function(){var a=['ad','ads','adsense'],l=a.length,i,s='',e;for(i=0;i<l;i++){if(!g(a[i])){s+='<a id="'+a[i]+'"></a>'}}c(s);l=a.length;setTimeout(function(){for(i=0;i<l;i++){e=g(a[i]);if(e.offsetParent==null||(w.getComputedStyle?d.defaultView.getComputedStyle(e,null).getPropertyValue('display'):e.currentStyle.display)=='none'){return f('#'+a[i])}}},250)}());(function(){var t=g(0,'img'),a=['/adsales/ad','/adsenceSearch.','/adtools2.','/adv2.','/partner_ads_','_ads.html','.468x60-'],i;if(typeof t[0]!=z&&typeof t[0].src!=z){i=new Image();i.onload=function(){this.onload=z;this.onerror=function(){f(this.src)};this.src=t[0].src+'#'+a.join('')};i.src=t[0].src}}());(function(){var o={'http://pagead2.googlesyndication.com/pagead/show_ads.js':'google_ad_client'},S=g(0,'script'),l=S.length-1,n,r,i,v,s;d.write=null;for(i=l;i>=0;--i){s=S[i];if(typeof o[s.src]!=z){n=d.createElement('script');n.type='text/javascript';n.src=s.src;v=o[s.src];w[v]=u;r=S[0];n.onload=n.onreadystatechange=function(){if(typeof w[v]==z&&(!this.readyState||this.readyState==="loaded"||this.readyState==="complete")){n.onload=n.onreadystatechange=null;r.parentNode.removeChild(n);w[v]=null}};r.parentNode.insertBefore(n,r);setTimeout(function(){if(w[v]===u){f(n.src)}},2000);break}}}())}if(d.addEventListener){w.addEventListener('load',unblocker,false)}else{w.attachEvent('onload',unblocker)}})(window);};
+(function(w,u){var d=w.document,z=typeof u;function unblocker(){function c(c,i){var e=d.createElement('div'),b=d.body,s=b.style,l=b.childNodes.length;if(typeof i!=z){e.setAttribute('id',i);s.margin=s.padding=0;s.height='100%';l=Math.floor(Math.random()*l)+1}e.innerHTML=c;b.insertBefore(e,b.childNodes[l-1])}function g(i,t){return !t?d.getElementById(i):d.getElementsByTagName(t)};function f(v){if(!g('unblocker')){c('<p> من فضلك قم بتعطيل أداة مانع الأعلانات أدبلوك AdBlock من المتصفح للدخول إلى الرابط المطلوب ، أو أستخدم متصفح أخر وشكرا لك 😊 <br/> نرجو منك تفهم الأمر بدون أنزعاج وشكرا لك 😊 </p>','unblocker')}};(function(){var a=['ad','ads','adsense'],l=a.length,i,s='',e;for(i=0;i<l;i++){if(!g(a[i])){s+='<a id="'+a[i]+'"></a>'}}c(s);l=a.length;setTimeout(function(){for(i=0;i<l;i++){e=g(a[i]);if(e.offsetParent==null||(w.getComputedStyle?d.defaultView.getComputedStyle(e,null).getPropertyValue('display'):e.currentStyle.display)=='none'){return f('#'+a[i])}}},250)}());(function(){var t=g(0,'img'),a=['/adsales/ad','/adsenceSearch.','/adtools2.','/adv2.','/partner_ads_','_ads.html','.468x60-'],i;if(typeof t[0]!=z&&typeof t[0].src!=z){i=new Image();i.onload=function(){this.onload=z;this.onerror=function(){f(this.src)};this.src=t[0].src+'#'+a.join('')};i.src=t[0].src}}());(function(){var o={'http://pagead2.googlesyndication.com/pagead/show_ads.js':'google_ad_client'},S=g(0,'script'),l=S.length-1,n,r,i,v,s;d.write=null;for(i=l;i>=0;--i){s=S[i];if(typeof o[s.src]!=z){n=d.createElement('script');n.type='text/javascript';n.src=s.src;v=o[s.src];w[v]=u;r=S[0];n.onload=n.onreadystatechange=function(){if(typeof w[v]==z&&(!this.readyState||this.readyState==="loaded"||this.readyState==="complete")){n.onload=n.onreadystatechange=null;r.parentNode.removeChild(n);w[v]=null}};r.parentNode.insertBefore(n,r);setTimeout(function(){if(w[v]===u){f(n.src)}},2000);break}}}())}if(d.addEventListener){w.addEventListener('load',unblocker,false)}else{w.attachEvent('onload',unblocker)}})(window);};
 
 document.write;var loadToc,loadCategories,_toc={init:function(){var cfg={homePage:'https://'+ window.location.hostname,maxResults:3,numChars:270,thumbWidth:250,thumbHeight:140,navText:"Tampilkan artikel selanjutnya &#9660;",resetToc:"Kembali ke Awal",noImage:"httsp://2.bp.blogspot.com/-11FkySHGB5Y/TpZ6SSbsF2I/AAAAAAAAA94/zK10UaL7jgo/s1600/images.jpeg",loading:"<span>Memuat...</span>",counting:"<div>Memuat artikel...</div>",searching:"<span>Mencari...</span>"},w=window,d=document,el=function(id){return d.getElementById(id);},o={a:el('feed-order'),b:el('label-sorter').parentNode,c:el('post-searcher'),d:el('feed-q'),e:el('result-desc'),f:el('feed-container'),g:el('feed-nav'),h:d.getElementsByTagName('head')[0],i:0,j:null,k:'published',l:0,m:""},fn={a:function(){old=el('temporer-script');old.parentNode.removeChild(old);},b:function(param){var script=d.createElement('script');script.type="text/javascript";script.id="temporer-script";script.src=param;if(el('temporer-script'))fn.a();o.h.appendChild(script);},c:function(mode,tag,order){o.i++;o.e.innerHTML=cfg.counting;o.g.innerHTML=cfg[mode==1?"searching":"loading"];if(mode===0){fn.b(tag!==null?cfg.homePage+'/feeds/posts/summary/-/'+ tag+'?alt=json-in-script&start-index='+((o.i*cfg.maxResults)+ 1)+'&max-results='+ cfg.maxResults+'&orderby='+ order+'&callback=loadToc':cfg.homePage+'/feeds/posts/summary?alt=json-in-script&start-index='+((o.i*cfg.maxResults)+ 1)+'&max-results='+ cfg.maxResults+'&orderby='+ order+'&callback=loadToc');}else if(mode==1){fn.b(cfg.homePage+'/feeds/posts/summary?alt=json-in-script&start-index='+((o.i*cfg.maxResults)+ 1)+'&max-results='+ cfg.maxResults+'&q='+ tag+'&orderby='+ order+'&callback=loadToc');}
 o.j=(tag!==null)?tag:null;o.l=mode;o.a.disabled=true;o.b.children[0].disabled=true;},d:function(json){var _h;o.g.innerHTML="";o.e.innerHTML=o.l==1?'<span>Hasil penelusuran untuk kata kunci <b>&#8220;'+ o.m+'&#8221;</b> ('+ json.feed.openSearch$totalResults.$t+' Hasil)</span>':'<strong>Total: '+ json.feed.openSearch$totalResults.$t+' Artikel</strong>';if("entry"in json.feed){var a=json.feed.entry,b,c,_d,e="0 Komentar",f="",g;for(var i=0;i<cfg.maxResults;i++){if(i==a.length)break;b=a[i].title.$t;_d=("summary"in a[i])?a[i].summary.$t.replace(/<br ?\/?>/ig," ").replace(/<(.*?)>/g,"").replace(/<iframe/ig,"").substring(0,cfg.numChars):"";g=("media$thumbnail"in a[i])?a[i].media$thumbnail.url.replace(/\/s[0-9]+\-c/,"\/s"+ cfg.thumbWidth+""):cfg.noImage.replace(/\/s[0-9]+\-c/,"\/s"+ cfg.thumbWidth+"");for(var j=0,jen=a[i].link.length;j<jen;j++){c=(a[i].link[j].rel=="alternate")?a[i].link[j].href:"#";}
@@ -1271,7 +1271,7 @@ document.write("<scr" + "ipt type=\"text/javascript\" src=\"https://www.blogger.
 </script>
 <script type='text/javascript'>
 if (typeof(BLOG_attachCsiOnload) != &quot;undefined&quot; &amp;&amp; BLOG_attachCsiOnload != null) { window[&quot;blogger_templates_experiment_id&quot;] = &quot;templatesV1&quot;;window[&quot;blogger_blog_id&quot;] = &quot;<data:blog.blogId/>&quot;;BLOG_attachCsiOnload(&quot;&quot;); }_WidgetManager._Init(&quot;//www.blogger.com/rearrange?blogID\x3d<data:blog.blogId/>&quot;,&quot;<data:blog.url/>&quot;,&quot;<data:blog.blogId/>&quot;);
-_WidgetManager._RegisterWidget(&quot;_ContactFormView&quot;, new _WidgetInfo(&quot;ContactForm1&quot;, &quot;footer1&quot;, null, document.getElementById(&quot;ContactForm1&quot;), {&quot;contactFormMessageSendingMsg&quot;: &quot;ط¥ط±ط³ط§ظ„... &quot;, &quot;contactFormMessageSentMsg&quot;: &quot;طھظ… ط§ط±ط³ط§ظ„ ط±ط³ط§ظ„طھظƒ. &quot;, &quot;contactFormMessageNotSentMsg&quot;: &quot;Message could not be sent. Please try again later.&quot;, &quot;contactFormInvalidEmailMsg&quot;: &quot;ظٹظ„ط²ظ… ط¥ط¯ط®ط§ظ„ ط¹ظ†ظˆط§ظ† ط¨ط±ظٹط¯ ط¥ظ„ظƒطھط±ظˆظ†ظٹ طµط§ظ„ط­. &quot;, &quot;contactFormEmptyMessageMsg&quot;: &quot;Message field cannot be empty.&quot;, &quot;title&quot;: &quot;Contact Form&quot;, &quot;blogId&quot;: &quot;<data:blog.blogId/>&quot;, &quot;contactFormNameMsg&quot;: &quot;Name&quot;, &quot;contactFormEmailMsg&quot;: &quot;Email&quot;, &quot;contactFormMessageMsg&quot;: &quot;Message&quot;, &quot;contactFormSendMsg&quot;: &quot;Send&quot;, &quot;submitUrl&quot;: &quot;https://www.blogger.com/contact-form.do&quot;}, &quot;displayModeFull&quot;));
+_WidgetManager._RegisterWidget(&quot;_ContactFormView&quot;, new _WidgetInfo(&quot;ContactForm1&quot;, &quot;footer1&quot;, null, document.getElementById(&quot;ContactForm1&quot;), {&quot;contactFormMessageSendingMsg&quot;: &quot;إرسال... &quot;, &quot;contactFormMessageSentMsg&quot;: &quot;تم ارسال رسالتك. &quot;, &quot;contactFormMessageNotSentMsg&quot;: &quot;Message could not be sent. Please try again later.&quot;, &quot;contactFormInvalidEmailMsg&quot;: &quot;يلزم إدخال عنوان بريد إلكتروني صالح. &quot;, &quot;contactFormEmptyMessageMsg&quot;: &quot;Message field cannot be empty.&quot;, &quot;title&quot;: &quot;Contact Form&quot;, &quot;blogId&quot;: &quot;<data:blog.blogId/>&quot;, &quot;contactFormNameMsg&quot;: &quot;Name&quot;, &quot;contactFormEmailMsg&quot;: &quot;Email&quot;, &quot;contactFormMessageMsg&quot;: &quot;Message&quot;, &quot;contactFormSendMsg&quot;: &quot;Send&quot;, &quot;submitUrl&quot;: &quot;https://www.blogger.com/contact-form.do&quot;}, &quot;displayModeFull&quot;));
 </script>
 </b:if>
 &lt;!--</body>--&gt; &lt;/body&gt;
